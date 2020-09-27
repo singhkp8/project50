@@ -1,0 +1,41 @@
+/* * {
+  border: solid;
+} */
+h1 {
+  color: white;
+}
+h4 {
+  color: orchid;
+}
+h3 {
+  color: purple;
+}
+.header {
+  background-color: black;
+  display:flex;
+}
+/* a:link {
+  color: white;
+}
+a:visited {
+  color: yellow;
+}
+.item {
+  position: relative;
+}
+.item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  opacity: 0;
+} */
+.grid {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+.footer {
+  display:flex;
+  justify-content: flex-end;
+}
